@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/flagname"
+        android:layout_width="match_parent"
+        android:layout_height="128dp" />
+
+    <TextView
+        android:id="@+id/statename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/statemap"
+        android:layout_width="match_parent"
+        android:layout_height="148dp" />
+
+    <TextView
+        android:id="@+id/statearea"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="TextView" />
+</LinearLayout>
